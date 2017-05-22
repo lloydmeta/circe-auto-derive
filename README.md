@@ -5,7 +5,7 @@ When compiled as-is, we get a `knownDirectSubclasses` error.
 
 ## How to make it work
 
-There are 2 ways to make compilation pass:
+There are 3 ways to make compilation pass:
 
   1. Rename `Role` to `ARole`.
   2. Add `import Role._` at the top of `Main`, before `import io.circe.generic.auto._`
