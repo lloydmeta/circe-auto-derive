@@ -4,14 +4,13 @@ version := "1.0-SNAPSHOT"
 
 organization := "com.example"
 
-scalaVersion := "2.12.2"
+scalaVersion := "2.11.8"
 
 lazy val circeVersion = "0.8.0"
 
 libraryDependencies ++= Seq(
   "io.circe"      %% "circe-core"    % circeVersion,
-  "io.circe"      %% "circe-generic" % circeVersion,
-  "org.scalatest" %% "scalatest"     % "3.2.0-SNAP6" % Test
+  "io.circe"      %% "circe-generic" % circeVersion
 )
 
 scalacOptions ++= Seq(
