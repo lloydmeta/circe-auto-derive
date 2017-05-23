@@ -2,6 +2,7 @@
 
 When compiled as-is, we get a `knownDirectSubclasses` error.
 
+Related: [circe/circe#639](https://github.com/circe/circe/issues/639), [scala/bug#10330](https://github.com/scala/bug/issues/10330)
 
 ## How to make it work
 
