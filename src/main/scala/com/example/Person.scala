@@ -1,3 +1,3 @@
 package com.example
 
-final case class Person(name: String, Role: Role)
+final case class Person(name: String, role: Role)
